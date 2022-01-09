@@ -22,8 +22,8 @@ text_2_size = 40
 text_2_pos = (110, 280)
 
 # fixing text size and font style
-text_1_font = ImageFont.truetype(join(dirname(__file__), "fonts/GOTHICB.ttf"), text_1_size)
-text_2_font = ImageFont.truetype(join(dirname(__file__), "fonts/GOTHICB.ttf"), text_2_size)
+text_1_font = ImageFont.truetype(join(dirname(__file__), "fonts/CenturyGothicBold.ttf"), text_1_size)
+text_2_font = ImageFont.truetype(join(dirname(__file__), "fonts/CenturyGothicBold.ttf"), text_2_size)
 
 def getQR(strs, name):
   qr = qrcode.QRCode(
